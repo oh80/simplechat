@@ -22,7 +22,7 @@ def extract_region_from_arn(arn):
 # グローバル変数としてクライアントを初期化（初期値）
 bedrock_client = None
 
-API_URL = "https://9838-34-142-228-173.ngrok-free.app"
+API_URL = "https://27ea-34-142-228-173.ngrok-free.app"
 
 # モデルID
 MODEL_ID = os.environ.get("MODEL_ID", "us.amazon.nova-lite-v1:0")
